@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ReversedString {
+public class ReversedStringTest {
     @Test
     public void reverseTestWithNull(){
         Assert.assertNull(ReverseString.reverseString(null));
@@ -10,7 +10,7 @@ public class ReversedString {
 
     @Test
     public void reverseTestWithDigits(){
-        Assert.assertEquals("cbA321",ReverseString.reverseString("23Abc"));
+        Assert.assertEquals("cbA321",ReverseString.reverseString("123Abc"));
         System.out.println("reverseTestWithDigits");
     }
 
